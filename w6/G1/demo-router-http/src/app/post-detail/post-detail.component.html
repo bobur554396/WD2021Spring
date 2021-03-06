@@ -1,0 +1,9 @@
+<div *ngIf="!loading">
+  <h2>Post #{{post.id}}</h2>
+  <p>{{post.title}}</p>
+  <p>{{post.body}}</p>
+
+  <button (click)="goBack()">Go Back</button>
+</div>
+
+<p *ngIf="loading">Loading post...</p>
