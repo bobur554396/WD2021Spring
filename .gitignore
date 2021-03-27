@@ -106,3 +106,7 @@ Thumbs.db
 !.editorconfig
 !.phpcs.xml.dist
 .idea
+
+my-first-env/
+second-env/
+env/
